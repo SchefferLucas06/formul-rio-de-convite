@@ -1,0 +1,704 @@
+
+.margin {
+    margin-top: 48px;
+}
+
+
+.main-color {
+
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    width: 560px;
+    height: 40px;
+}
+
+
+
+
+
+.color-1 {
+
+    appearance: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    
+    border-radius: 100%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+   
+    
+
+}
+
+.color-1:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-1:focus {
+    outline: 2px solid var(--brand-light);
+}
+
+.color-1::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--brand-light);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.color-2 {
+
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+
+    
+
+}
+
+.color-2::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--navy);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+
+    
+}
+
+.color-2:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-2:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+
+
+.color-3 {
+
+    appearance: none;
+    width: 42px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+
+    
+
+}
+
+.color-3::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--purple);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.color-3:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-3:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+
+.color-4 {
+
+    appearance: none;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+    
+    
+
+}
+
+.color-4::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--fuschia);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.color-4:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-4:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+
+.color-5 {
+
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+
+    
+
+}
+
+
+.color-5::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--pink);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+
+.color-5:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-5:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+
+.color-6 {
+
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: px;
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+
+    
+
+}
+
+.color-6::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--danger);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.color-6:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-6:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+
+.color-7 {
+
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+
+    
+
+}
+
+.color-7::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--orange);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.color-7:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-7:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+.color-8 {
+
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+
+    
+
+}
+
+.color-8::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--yellow);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.color-8:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-8:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+.color-9 {
+
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+
+    
+
+}
+
+.color-9::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--lime);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.color-9:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-9:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+.color-10 {
+
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+
+    
+
+}
+
+.color-10::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--green);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.color-10:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-10:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+.color-11 {
+
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--button);
+    position: relative;
+    padding: 8px;
+
+    
+
+}
+
+.color-11::before {
+
+    content: "";
+    position: absolute;
+    background-color: var(--cyan);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.color-11:hover {
+
+    background-color: var(--hover-shape);
+}
+
+.color-11:focus {
+
+     outline: 2px solid var(--brand-light);
+}
+
+.theme{
+
+    margin-top: 28px;
+    margin-bottom: 28px;
+    width: 560px;
+    display: grid;
+    gap: 16px;
+}
+
+.grid {
+
+    display: grid;
+   
+    width: 560px;
+    height: 360px;
+    grid-template-columns: repeat( 4, 133px);
+    gap: 8px;
+}
+
+.radio-inner{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 115px;
+    border-radius: 8px;
+    background-color: var(--button);
+    padding: 4px 4px 8px 4px;
+    position: relative;
+   
+
+    img {
+        border-radius: 8px;
+    }
+    
+   input {
+
+    appearance: none;
+    position: absolute;
+    width: 134px;
+    height: 103px;
+
+    &:focus {
+
+        outline: var(--brand-light);
+    }
+    
+    }
+
+    label {
+        margin: auto;
+    }
+
+    
+
+    &:has(:checked) {
+
+        border: 2px solid var(--brand-light) ;
+    }
+
+    &:hover {
+        background-color: var(--hover-shape);
+    }
+
+    
+
+}
+
+
+
+.style {
+
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 200px 410.45px;
+}
+
+.switch {
+
+    position: relative;
+    width: 200px;
+    
+    input {
+
+        appearance: none;
+        width: 64px;
+        height: 32px;
+        background-color: var(--input-base);
+        border-radius: 999px;
+        position: absolute;
+        cursor: pointer;
+        outline: none;
+        margin-top: 12px;
+    }
+
+    input:before {
+
+        content: "";
+        position: absolute;
+        left: 4px;
+        top: 4px;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+        background-color: var(--input-stroke);
+
+
+        
+    }
+
+    input:after {
+        
+        content: "Escuro";
+        position:absolute;
+        font: var(--body-sm);
+        color: var(--text-body);
+        left: 77px;
+        bottom: 7px;
+        
+
+    }
+
+    input:checked {
+
+        background-color: var(--brand-light);
+    } 
+    
+    input:checked::before{
+        
+        background-color: var(--text-hd);
+        left: 36px;
+
+    }
+
+    input:checked::after {
+
+        content: "Claro";
+
+    }
+
+    
+}
+
+.file {
+
+    & input{
+
+       display: none;
+    }
+
+   
+    label {
+        
+        display: flex;
+        gap: 12px;
+        cursor: pointer;
+        align-items: center;
+        
+        
+        
+        span:nth-child(1) {
+
+            display: flex;
+            
+            width: 119px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background-color: var(--button);
+            border-radius: 8px;
+            font: var(--body-smsb);
+            color: var(--text-hd);
+
+        }
+
+        span:nth-child(2) {
+
+            font: var(--body-md);
+            color: var(--input-ph);
+        }
+    }
+
+        & .error {
+
+        
+           display: flex;
+           gap: 8px;
+       
+
+           & span {
+               color: var(--danger);
+               font: var(--body-xs);
+            }
+        }
+}
+
+.label-file {
+
+   margin-bottom: 12px;
+}
+
+ 
+
+
+/*.file {
+    
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 119px 237px;
+    align-items: end;
+    
+
+}
+
+.file-inner {
+
+    display: grid;
+    margin-top: 12px;
+    grid-template-columns: 16px 71px;
+    gap: 8px;
+    width: 119px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--button);
+    border-radius: 8px;
+    position: relative;
+    font: var(--body-sm);
+    color: aliceblue;
+
+    
+    
+    input {
+
+       margin-top: 12px;
+       opacity: 0;
+       position: absolute;
+       inset: 0;
+       height: 100%;
+       width: 100%;
+
+    }
+
+    
+}*/
+
+
+
+
+
+
+
+ 
+
+
+
+
+    
+
+
+
+    
+    
+
+ 
+
+   

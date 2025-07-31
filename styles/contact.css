@@ -1,0 +1,99 @@
+
+.contact-name {
+
+    width: 560px;
+
+    input {
+
+        width: 100%;
+        margin-top: 12px;
+       
+        background-color: var(--input-base);
+        border: 1px solid var(--input-stroke);
+        height: 48px;
+        border-radius: 8px;
+        padding-inline: 16px;
+
+        outline: 1px solid var(--danger);
+
+        &:invalid:focus {
+            outline: 1px solid var(--danger);
+           
+        }
+
+       
+        &:valid + .error {
+           display:none;
+        }
+    }
+
+    input:focus {
+
+        outline: 1px solid var(--brand-light);
+    }
+
+     & .error {
+
+        
+           display: flex;
+           gap: 8px;
+       
+
+           & span {
+               color: var(--danger);
+               font: var(--body-xs);
+            }
+        }
+}
+
+#name::placeholder {
+
+    font: var(--body-md);
+    color: var(--input-ph);
+}
+
+.contact-ep {
+
+    display: flex;
+    
+    max-width: 560px;
+    height: 79px;
+
+    gap: 16px;
+    
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+    & input {
+
+        width: 272px;
+        height: 48px;
+        margin-top: 12px;
+
+        background-color: var(--input-base);
+        border: 1px solid var(--input-stroke);
+        border-radius: 8px;
+
+        padding-inline: 16px;
+       
+
+    }
+
+    input:focus {
+        outline: 1px solid var(--brand-light);
+    }
+
+    #data::placeholder {
+        font: var(--body-md);
+        color: var(--input-ph);
+
+    }
+}
+
+.line {
+    border: 1px solid var(--input-stroke);
+    border-bottom: none;
+    border-inline: none;
+    width: 560px;
+    height: 40px;
+}

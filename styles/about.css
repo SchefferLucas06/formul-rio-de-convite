@@ -1,0 +1,269 @@
+legend {
+
+    display: flex;
+    justify-items: center;
+    gap: 12px;
+    font: var(--heading-sm);
+    color: var(--text-hd);
+    margin-bottom: 24px;
+}
+
+.title-wrapper {
+
+    margin-bottom: 16px;
+    margin-top: 8px;
+
+    input {
+
+        width: 100%;
+        height: 48px;
+        width: 560px;
+        padding-left: 16px;
+        padding-block: 13px;
+        background-color: var(--input-base);
+        border-radius: 8px;
+        border: 1px solid var(--input-stroke);
+        margin-top: 12px;
+        
+    }
+
+}
+
+#title::placeholder {
+    color: var(--input-ph);
+    font: var(--body-md);
+}
+
+.date-wrapper {
+
+    
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 272px);
+    gap: 16px ;
+
+
+    input {
+
+       text-transform: uppercase;
+       color: var(--input-ph);
+       font: var(--body-md);
+       width: 100%;
+       height: 48px; 
+       padding-left: 16px;
+       padding-block: 13px;
+       background-color: var(--input-base);
+       border-radius: 8px;
+       border: 1px solid var(--input-stroke);
+       margin-top: 12px;
+       margin-bottom: 16px;
+       cursor: pointer;
+       
+    }
+}
+
+::-webkit-calendar-picker-indicator {
+    opacity: 0;
+
+}
+
+
+
+.radio{
+
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    border: 1px solid var(--input-stroke);
+    width: 272.55px;
+    height: 48px;
+    padding-inline: px;
+    padding-block: 3px;
+    margin-top: 12px;
+    background-color: var(--input-base);
+    border-radius: 8px;
+    
+
+}
+.radio-button {
+
+    appearance: none;
+    height: 40px;
+    width:130px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 19.5px;
+    padding-block: 12px;
+}
+
+.radio-button::before {
+    
+    content: "";
+    background-image: url(/assets/building-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.radio-button::after {
+
+    content: attr(label);
+    font: var(--body-smsb);
+    color: var(--text-hd) ;
+}
+
+.radio-button:checked {
+
+    background-color: var(--button);
+       
+}
+
+.radio-button:checked::before {
+
+    background-image: url(/assets/building-1.svg);
+}
+
+.radio-button-2 {
+
+    appearance: none;
+    height: 40px;
+    width:134px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 19.5px;
+    padding-block: 12px;
+
+}
+
+.radio-button-2::before {
+
+    content: "";
+    background-image: url(/assets/video.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.radio-button-2::after {
+    content: attr(label);
+    font: var(--body-smsb);
+    color: var(--text-hd) ;
+}
+
+.radio-button-2:checked {
+    background-color: var(--button);
+}
+
+.radio-button-2:checked::before {
+    
+    background-image: url(/assets/video1.svg);
+}
+    
+.radio:focus-within {
+
+    border: 1px solid var(--brand-light) ; 
+}
+
+.radio-button-2::before:has(:focus) {
+
+    background-image: url(/assets/video.svg);
+}
+
+.radio-button::before:has(:focus) {
+
+    background-image: url(/assets/building-1.svg);
+}
+
+.type-local {
+
+    display: grid;
+    width: 560px;
+    grid-template-columns: repeat(2, 272.55px);
+    gap: 16px
+
+}
+
+.adress {
+
+    display:grid;
+
+    textarea {
+
+        width: 272px;
+        height: 48px;
+        resize: none;
+        background-color: var(--input-base);
+        border-radius: 8px;
+        border: 1px solid var(--input-stroke);
+        color: var(--input-ph);
+        font: var(--body-md);
+        margin-top: 12px;
+        margin-bottom: 16px;
+        padding-inline: 16px;
+        padding-top: 13px;
+
+        
+       
+    }
+}
+
+#adress::placeholder {
+    font: var(--body-md);
+    color: var(--input-ph);
+}
+
+.description {
+
+    & textarea {
+
+        resize: none;
+        width: 560px;
+        height: 136px;
+        background-color: var(--input-base);
+        border-radius: 8px;
+        border: 1px solid var(--input-stroke);
+        margin-top: 12px;
+        
+        padding: 16px;
+
+       &:invalid {
+            outline: 1px solid var(--danger);
+        }
+
+       &:valid + .error {
+        display:none;
+
+       
+       }
+    }
+
+    & .error {
+        display: flex;
+        gap: 8px;
+       
+
+        & span {
+            color: var(--danger);
+            font: var(--body-xs);
+        }
+    }
+
+     
+}
+
+#description::placeholder {
+    font: var(--body-md);
+    color: var(--input-ph);
+}
+
+
+
+   

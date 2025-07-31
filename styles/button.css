@@ -1,0 +1,37 @@
+.action-wrapper {
+    
+    max-width: 560px;
+    display: flex;
+
+    justify-content: end;
+    
+
+    & .btn {
+
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        width: 177px;
+        height: 48px;
+        border-radius: 8px;
+        border: 1px solid var(--brand-dark);
+
+        padding-inline-start: 20px;
+        background-color: var(--brand-dark);
+
+        color: var(--text-hd);
+        font: var(--body-mdsb);
+
+        cursor: pointer;
+
+    }
+
+    & .btn-image {
+        background-image: url(../assets/convite.svg);
+        
+
+        height: 20px;
+        width: 20px;
+    }
+}
